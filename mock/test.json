@@ -1,0 +1,20 @@
+{
+    "code": "000000",
+    "msg": "string",
+    "personageDetailResult": {
+        "areaCityName|3-5": "老李老王",
+        "areaProvinceName|3-5": "1",
+        "areaRegionName|3-5": "2",
+        "buyerId|+1": "1",
+        "buyerStatus": "ff",
+        "buyerStatusName": "aa",
+        "eMail": "123@qq.com",
+        "idCard": "513436200003279738",
+        "idCardFront": "http://219.128.52.2:8080/group1/M00/01/45/wKgAZV59sRiAeZyhAADtZn5yLLQ142.jpg",
+        "idCardReverse": "http://219.128.52.2:8080/group1/M00/01/45/wKgAZV59sRiAeZyhAADtZn5yLLQ142.jpg",
+        "phone": "1322222222",
+        "realName": "老王",
+        "userId": "123",
+        "userName": "小飞"
+    }
+}

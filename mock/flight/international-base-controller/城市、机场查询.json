@@ -1,0 +1,24 @@
+{
+  "type": "object",
+  "properties": {
+    "citys|20": [
+      {
+        "airports|1": true,
+        "cityCode": "SH",
+        "code": "1234",
+        "initial": "Y",
+        "isHot": "H",
+        "name": "上海",
+        "spell": "shanghai"
+      }
+    ]
+  },
+  "code": {
+    "type": "string",
+    "description": "返回编码"
+  },
+  "msg": {
+    "type": "string",
+    "description": "返回信息"
+  }
+}

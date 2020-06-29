@@ -1,0 +1,24 @@
+{
+  "name": "yinzlmock",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mockServer.js",
+  "scripts": {
+    "start": "nodemon ./mockServer.js",
+    "build": "node  ./build/resolve.js",
+    "mock": "node ./build/mockBuild.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "koa": "^2.11.0",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "mockjs": "^1.1.0",
+    "path": "^0.12.7",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

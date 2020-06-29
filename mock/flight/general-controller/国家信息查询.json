@@ -1,0 +1,37 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "countrys": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "cnName": {
+            "type": "string",
+            "description": "国家中文名（国际下单乘客的国籍中有用到）"
+          },
+          "code": {
+            "type": "string",
+            "description": " 国家二字代码（国际下单乘客的国籍中有用到）"
+          },
+          "enName": {
+            "type": "string",
+            "description": "国家英文名"
+          }
+        },
+        "title": "CountryInfo",
+        "$$ref": "#/definitions/CountryInfo"
+      }
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "BuyerCountryListResponse",
+  "$$ref": "#/definitions/BuyerCountryListResponse"
+}

@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "refOrderNo"
+  ],
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "refOrderNo": {
+      "type": "string",
+      "description": "退票单编号"
+    }
+  },
+  "title": "BuyerDomWhiteRefundApplyResponse",
+  "$$ref": "#/definitions/BuyerDomWhiteRefundApplyResponse"
+}

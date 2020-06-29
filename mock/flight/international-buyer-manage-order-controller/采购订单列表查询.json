@@ -1,0 +1,193 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "pageResult": {
+      "type": "object",
+      "properties": {
+        "currentPage": {
+          "type": "integer",
+          "format": "int32",
+          "description": "当前页码,默认为1"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "hasNext": {
+          "type": "boolean"
+        },
+        "hasPrev": {
+          "type": "boolean"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "nextPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageData": {
+          "type": "array",
+          "description": "分页内容",
+          "items": {
+            "type": "object",
+            "properties": {
+              "amount": {
+                "type": "number",
+                "description": "订单金额"
+              },
+              "buttonList": {
+                "type": "array",
+                "description": "按钮信息 ",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "code": {
+                      "type": "string",
+                      "description": "pay: 支付,airDetails: 查看订单, change: 申请改签,refund: 申请退票, invalid: 申请作废, cancel: 取消订单"
+                    },
+                    "text": {
+                      "type": "string",
+                      "description": "说明"
+                    }
+                  },
+                  "title": "InternationalBuyerManageOrderButton",
+                  "$$ref": "#/definitions/InternationalBuyerManageOrderButton"
+                }
+              },
+              "flightType": {
+                "type": "string",
+                "description": "航程类型 1单程 2往返 3多程"
+              },
+              "flightTypeInfo": {
+                "type": "string",
+                "description": "航程类型名称"
+              },
+              "orderNo": {
+                "type": "string",
+                "description": "订单编号"
+              },
+              "orderStatus": {
+                "type": "string",
+                "description": "订单状态 11=待支付，21=待出票，22=出票成功，23=出票失败，90=已取消"
+              },
+              "orderStatusInfo": {
+                "type": "string",
+                "description": "订单状态名称"
+              },
+              "orderTime": {
+                "type": "string",
+                "description": "下单时间 YYYY-MM-dd HH:mm:ss"
+              },
+              "passengerList": {
+                "type": "array",
+                "description": "乘机人信息",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "payAmount": {
+                "type": "number",
+                "description": "支付金额"
+              },
+              "pnr": {
+                "type": "array",
+                "description": "pnr",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "segmentResults": {
+                "type": "array",
+                "description": "航班号/行程/时间",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "arriveDate": {
+                      "type": "string",
+                      "description": "到达日期"
+                    },
+                    "cabinCode": {
+                      "type": "string",
+                      "description": "仓位代码"
+                    },
+                    "departureDate": {
+                      "type": "string",
+                      "description": "出发日期"
+                    },
+                    "eAirportCode": {
+                      "type": "string",
+                      "description": "到达机场三字码"
+                    },
+                    "eCityCode": {
+                      "type": "string",
+                      "description": "到达城市三字码"
+                    },
+                    "eCityName": {
+                      "type": "string",
+                      "description": "到达城市名称"
+                    },
+                    "flightInfo": {
+                      "type": "string",
+                      "description": "'航班号/航司二字码'"
+                    },
+                    "sAirportCode": {
+                      "type": "string",
+                      "description": "出发机场三字码"
+                    },
+                    "sCityCode": {
+                      "type": "string",
+                      "description": "出发城市三字码"
+                    },
+                    "sCityName": {
+                      "type": "string",
+                      "description": "出发城市名称"
+                    }
+                  },
+                  "title": "InternationalBuyerManageSegmentRouteResult",
+                  "$$ref": "#/definitions/InternationalBuyerManageSegmentRouteResult"
+                }
+              },
+              "supplierType": {
+                "type": "integer",
+                "format": "int32",
+                "description": "供应商类型:(0:pkfare) (1:美亚)"
+              }
+            },
+            "title": "InternationalBuyerManageOrderList",
+            "$$ref": "#/definitions/InternationalBuyerManageOrderList"
+          }
+        },
+        "pageSize": {
+          "type": "integer",
+          "format": "int32",
+          "description": "页面数据条数默认为3"
+        },
+        "prevPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "totalCount": {
+          "type": "integer",
+          "format": "int32",
+          "description": "总条数"
+        }
+      },
+      "title": "PageResult«InternationalBuyerManageOrderList»",
+      "$$ref": "#/definitions/PageResult«InternationalBuyerManageOrderList»"
+    }
+  },
+  "title": "InternationalBuyerManageOrderListResponse",
+  "$$ref": "#/definitions/InternationalBuyerManageOrderListResponse"
+}

@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "orderNo": {
+      "type": "string",
+      "description": "订单号"
+    },
+    "payTime": {
+      "type": "string",
+      "description": "最晚支付时间,过期无法支付"
+    }
+  },
+  "title": "BuyerDomWhiteReserveResponse",
+  "$$ref": "#/definitions/BuyerDomWhiteReserveResponse"
+}

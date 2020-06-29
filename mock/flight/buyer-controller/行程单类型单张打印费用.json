@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string"
+    },
+    "msg": {
+      "type": "string"
+    },
+    "result": {
+      "type": "string",
+      "description": "行程单类型单张打印费用"
+    }
+  },
+  "title": "ItineraryTypeFeeResponse",
+  "$$ref": "#/definitions/ItineraryTypeFeeResponse"
+}

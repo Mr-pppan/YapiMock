@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "status": {
+      "type": "string",
+      "description": "是否支付成功 true-成功，false-失败"
+    }
+  },
+  "title": "InterBuyerWhiteChangePayResponse",
+  "$$ref": "#/definitions/InterBuyerWhiteChangePayResponse"
+}

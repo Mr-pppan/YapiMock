@@ -1,0 +1,22 @@
+{
+  "type": "object",
+  "required": [
+    "chaOrderNo"
+  ],
+  "properties": {
+    "chaOrderNo": {
+      "type": "string",
+      "description": "改签单编号"
+    },
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "BuyerDomWhiteChangeApplyResponse",
+  "$$ref": "#/definitions/BuyerDomWhiteChangeApplyResponse"
+}

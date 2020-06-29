@@ -1,0 +1,304 @@
+{
+  "type": "object",
+  "properties": {
+    "changeDetailRes": {
+      "type": "object",
+      "properties": {
+        "amount": {
+          "type": "number",
+          "description": "订单金额"
+        },
+        "appTime": {
+          "type": "string",
+          "format": "date-time",
+          "description": "申请时间 YYYY-MM-dd HH:mm:ss"
+        },
+        "applyPerson": {
+          "type": "string",
+          "description": "申请人"
+        },
+        "buyerAddAmount": {
+          "type": "number"
+        },
+        "chaReason": {
+          "type": "integer",
+          "format": "int32",
+          "description": "改签类型 1-自愿改签 2-非自愿改签"
+        },
+        "chaReasonText": {
+          "type": "string",
+          "description": "改签类型文本 1-自愿改签 2-非自愿改签"
+        },
+        "changeOderNo": {
+          "type": "string",
+          "description": "改签订单编号"
+        },
+        "changeRemark": {
+          "type": "string",
+          "description": "改签备注"
+        },
+        "changeStatus": {
+          "type": "integer",
+          "format": "int32",
+          "description": "改签状态  31,改签处理中，32,改签需补款，33,改签已补款，34,改签成功，35,改签失败"
+        },
+        "changeStatusText": {
+          "type": "string",
+          "description": "改签状态文本  31,改签处理中，32,改签需补款，33,改签已补款，34,改签成功，35,改签失败"
+        },
+        "changeTime": {
+          "type": "string",
+          "format": "date-time",
+          "description": "改签时间 YYYY-MM-dd HH:mm:ss"
+        },
+        "changeType": {
+          "type": "integer",
+          "format": "int32",
+          "description": "变更类型 1-改期 2-升舱"
+        },
+        "changeTypeText": {
+          "type": "string",
+          "description": "变更类型文本 1-改期 2-升舱"
+        },
+        "companyName": {
+          "type": "string",
+          "description": "公司名称"
+        },
+        "contactEmail": {
+          "type": "string",
+          "description": "联系人邮箱"
+        },
+        "contactName": {
+          "type": "string",
+          "description": "联系人姓名"
+        },
+        "contactTel": {
+          "type": "string",
+          "description": "联系人电话"
+        },
+        "flightType": {
+          "type": "integer",
+          "format": "int32",
+          "description": "航程类型 1-单程 2-往返 3-多程"
+        },
+        "flightTypeText": {
+          "type": "string",
+          "description": "航程类型文本 1-单程 2-往返 3-多程"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "主单编号"
+        },
+        "orderRemark": {
+          "type": "string",
+          "description": "订单备注"
+        },
+        "platformAddAmount": {
+          "type": "number"
+        },
+        "psgAndSegmentResList": {
+          "type": "array",
+          "description": "改签乘客和航班",
+          "items": {
+            "type": "object",
+            "properties": {
+              "cardNo": {
+                "type": "string",
+                "description": "证件号码"
+              },
+              "cardType": {
+                "type": "integer",
+                "format": "int32",
+                "description": "证件类型 0-身份证 1-护照 4-港澳通行证 5-台胞证 6-台湾通行证 7-回乡证 9-其他"
+              },
+              "cardTypeText": {
+                "type": "string",
+                "description": "证件类型文本 0-身份证 1-护照 4-港澳通行证 5-台胞证 6-台湾通行证 7-回乡证 9-其他"
+              },
+              "psgName": {
+                "type": "string",
+                "description": "乘机人名字"
+              },
+              "psgNo": {
+                "type": "string",
+                "description": "乘机人编号"
+              },
+              "psgType": {
+                "type": "integer",
+                "format": "int32",
+                "description": "乘客类型 1-成人 2-儿童 3-婴儿"
+              },
+              "psgTypeText": {
+                "type": "string",
+                "description": "乘客类型文本 1-成人 2-儿童 3-婴儿"
+              },
+              "segmentInfoList": {
+                "type": "array",
+                "description": "航班信息",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "airlineName": {
+                      "type": "string",
+                      "description": "航司名称"
+                    },
+                    "arriveDate": {
+                      "type": "string",
+                      "description": "到达日期"
+                    },
+                    "arriveTime": {
+                      "type": "string",
+                      "description": "到达时间"
+                    },
+                    "beginDate": {
+                      "type": "string",
+                      "description": "出发日期"
+                    },
+                    "beginTime": {
+                      "type": "string",
+                      "description": "出发时间"
+                    },
+                    "cabinCode": {
+                      "type": "string",
+                      "description": "舱位代码"
+                    },
+                    "eAirportCode": {
+                      "type": "string",
+                      "description": "到达机场三字码"
+                    },
+                    "eCityName": {
+                      "type": "string",
+                      "description": "到达城市三字码"
+                    },
+                    "flightNo": {
+                      "type": "string",
+                      "description": "航班号"
+                    },
+                    "sAirportCode": {
+                      "type": "string",
+                      "description": "出发机场三字码"
+                    },
+                    "sCityName": {
+                      "type": "string",
+                      "description": "出发城市名称"
+                    },
+                    "segmentNo": {
+                      "type": "string",
+                      "description": "航段编号"
+                    },
+                    "segmentType": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "航程标识，1-去程，2-回程"
+                    },
+                    "segmentTypeText": {
+                      "type": "string",
+                      "description": "航程标识文本，1-去程，2-回程"
+                    }
+                  },
+                  "title": "PlatformChangeSegmentInfo",
+                  "$$ref": "#/definitions/PlatformChangeSegmentInfo"
+                }
+              },
+              "ticketNumber": {
+                "type": "string",
+                "description": "票号"
+              }
+            },
+            "title": "PlatformChangePsgAndSegmentRes",
+            "$$ref": "#/definitions/PlatformChangePsgAndSegmentRes"
+          }
+        },
+        "segmentResList": {
+          "type": "array",
+          "description": "改签航班",
+          "items": {
+            "type": "object",
+            "properties": {
+              "airlineName": {
+                "type": "string",
+                "description": "航司名称"
+              },
+              "arriveDate": {
+                "type": "string",
+                "description": "到达日期"
+              },
+              "arriveTime": {
+                "type": "string",
+                "description": "到达时间"
+              },
+              "beginDate": {
+                "type": "string",
+                "description": "出发日期"
+              },
+              "beginTime": {
+                "type": "string",
+                "description": "出发时间"
+              },
+              "cabinCode": {
+                "type": "string",
+                "description": "舱位代码"
+              },
+              "eAirportCode": {
+                "type": "string",
+                "description": "到达机场三字码"
+              },
+              "eCityName": {
+                "type": "string",
+                "description": "到达城市名称"
+              },
+              "flightNo": {
+                "type": "string",
+                "description": "航班号"
+              },
+              "sAirportCode": {
+                "type": "string",
+                "description": "出发机场三字码"
+              },
+              "sCityName": {
+                "type": "string",
+                "description": "出发城市名称"
+              },
+              "segmentNo": {
+                "type": "string",
+                "description": "航段编号"
+              },
+              "segmentSerial": {
+                "type": "integer",
+                "format": "int32",
+                "description": "航段序号 表示当前航段在所属航程中的序号从1开始，1表示航程中的第一段，2表示第二段..."
+              },
+              "segmentType": {
+                "type": "integer",
+                "format": "int32",
+                "description": "航程标识，1-去程，2-回程"
+              },
+              "segmentTypeText": {
+                "type": "string",
+                "description": "航程标识文本，1-去程，2-回程"
+              }
+            },
+            "title": "PlatformChangeSegmentRes",
+            "$$ref": "#/definitions/PlatformChangeSegmentRes"
+          }
+        },
+        "url": {
+          "type": "string",
+          "description": "延误/病退证明文件"
+        }
+      },
+      "title": "PlatformChangeOperatingRes",
+      "$$ref": "#/definitions/PlatformChangeOperatingRes"
+    },
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "PlatformChangeResponse",
+  "$$ref": "#/definitions/PlatformChangeResponse"
+}

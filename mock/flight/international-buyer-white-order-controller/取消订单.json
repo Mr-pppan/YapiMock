@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "isSuccess": {
+      "type": "string",
+      "description": "取消成功-true，取消失败-false"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "InterBuyerWhiteCancelResponse",
+  "$$ref": "#/definitions/InterBuyerWhiteCancelResponse"
+}

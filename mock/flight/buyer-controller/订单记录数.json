@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "records": {
+      "type": "array",
+      "description": "订单记录对象",
+      "items": {
+        "type": "object",
+        "properties": {
+          "recordCount": {
+            "type": "integer",
+            "format": "int32",
+            "description": "记录数"
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "description": "订单状态 1-所有,2-未支付的新订单,3-已支付未出票订单,4-已出票订单,5-出票失败订单，6-已取消订单"
+          },
+          "statusTxt": {
+            "type": "string",
+            "description": "订单状态名称"
+          }
+        },
+        "title": "BuyerOrderCount",
+        "$$ref": "#/definitions/BuyerOrderCount"
+      }
+    }
+  },
+  "title": "BuyerOrderCountResponse",
+  "$$ref": "#/definitions/BuyerOrderCountResponse"
+}

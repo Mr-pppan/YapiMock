@@ -1,0 +1,15 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "000000-成功"
+    },
+    "msg": {
+      "type": "string",
+      "description": "错误返回信息"
+    }
+  },
+  "title": "ResponseCode",
+  "$$ref": "#/definitions/ResponseCode"
+}

@@ -1,0 +1,192 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "result": {
+      "type": "object",
+      "properties": {
+        "airportTax": {
+          "type": "string",
+          "description": "机场建设费"
+        },
+        "cardNo": {
+          "type": "string",
+          "description": "证件号码"
+        },
+        "fillDate": {
+          "type": "string",
+          "description": "填开日期"
+        },
+        "fillUnit": {
+          "type": "string",
+          "description": "填开单位"
+        },
+        "fuelTax": {
+          "type": "string",
+          "description": "燃油附加费"
+        },
+        "insureFee": {
+          "type": "string",
+          "description": "保险费"
+        },
+        "otherTax": {
+          "type": "string",
+          "description": "其它税费"
+        },
+        "promptMessage": {
+          "type": "string",
+          "description": "提示信息"
+        },
+        "psgName": {
+          "type": "string",
+          "description": "乘机人"
+        },
+        "rebatePrice": {
+          "type": "string",
+          "description": "票价"
+        },
+        "remark": {
+          "type": "string",
+          "description": "签注"
+        },
+        "salesUnitCode": {
+          "type": "string",
+          "description": "销售单位代码"
+        },
+        "segmentBack": {
+          "type": "object",
+          "properties": {
+            "airlineName": {
+              "type": "string",
+              "description": "承运人"
+            },
+            "cabin": {
+              "type": "string",
+              "description": "座位等级"
+            },
+            "cityName": {
+              "type": "string",
+              "description": "目的地"
+            },
+            "date": {
+              "type": "string",
+              "description": "到达日期"
+            },
+            "deadlineDate": {
+              "type": "string",
+              "description": "客票截止日期"
+            },
+            "effectiveDate": {
+              "type": "string",
+              "description": "客票生效日期"
+            },
+            "flightNo": {
+              "type": "string",
+              "description": "航班号"
+            },
+            "luggage": {
+              "type": "string",
+              "description": "免费行李"
+            },
+            "segmentSerial": {
+              "type": "string",
+              "description": "航段序号 表示当前航段在所属航程中的序号,从1开始，1表示航程中的第一段，2表示第二段..."
+            },
+            "segmentType": {
+              "type": "string",
+              "description": "航程标识，1-去程，2-回程"
+            },
+            "ticketType": {
+              "type": "string",
+              "description": "客票类型"
+            },
+            "time": {
+              "type": "string",
+              "description": "到达时间"
+            }
+          },
+          "title": "BuyerItineraeyPrintDetailSegmentBack",
+          "$$ref": "#/definitions/BuyerItineraeyPrintDetailSegmentBack"
+        },
+        "segmentGo": {
+          "type": "object",
+          "properties": {
+            "airlineName": {
+              "type": "string",
+              "description": "承运人"
+            },
+            "cabin": {
+              "type": "string",
+              "description": "座位等级"
+            },
+            "cityName": {
+              "type": "string",
+              "description": "始发地"
+            },
+            "date": {
+              "type": "string",
+              "description": "出发日期"
+            },
+            "deadlineDate": {
+              "type": "string",
+              "description": "客票截止日期"
+            },
+            "effectiveDate": {
+              "type": "string",
+              "description": "客票生效日期"
+            },
+            "flightNo": {
+              "type": "string",
+              "description": "航班号"
+            },
+            "luggage": {
+              "type": "string",
+              "description": "免费行李"
+            },
+            "segmentSerial": {
+              "type": "string",
+              "description": "航段序号 表示当前航段在所属航程中的序号,从1开始，1表示航程中的第一段，2表示第二段..."
+            },
+            "segmentType": {
+              "type": "string",
+              "description": "航程标识，1-去程，2-回程"
+            },
+            "ticketType": {
+              "type": "string",
+              "description": "客票类型"
+            },
+            "time": {
+              "type": "string",
+              "description": "出发时间"
+            }
+          },
+          "title": "BuyerItineraeyPrintDetailSegmentGo",
+          "$$ref": "#/definitions/BuyerItineraeyPrintDetailSegmentGo"
+        },
+        "ticketNumber": {
+          "type": "string",
+          "description": "电子客票号码"
+        },
+        "total": {
+          "type": "number",
+          "description": "合计"
+        },
+        "verificationCode": {
+          "type": "string",
+          "description": "验证码"
+        }
+      },
+      "title": "BuyerItineraryPrintDetailResult",
+      "$$ref": "#/definitions/BuyerItineraryPrintDetailResult"
+    }
+  },
+  "title": "BuyerItineraryPrintDetailResponse",
+  "$$ref": "#/definitions/BuyerItineraryPrintDetailResponse"
+}
