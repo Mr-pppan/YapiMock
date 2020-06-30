@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "html": {
+      "type": "string",
+      "description": "打印预览地址"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "BuyerItineraryPrintSaveResponse",
+  "$$ref": "#/definitions/BuyerItineraryPrintSaveResponse"
+}

@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "luggage": {
+      "type": "string",
+      "description": "行李额信息"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "BuyerDomWhiteLuggageResponse",
+  "$$ref": "#/definitions/BuyerDomWhiteLuggageResponse"
+}

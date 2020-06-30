@@ -1,0 +1,94 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "pageResult": {
+      "type": "object",
+      "properties": {
+        "currentPage": {
+          "type": "integer",
+          "format": "int32",
+          "description": "当前页码,默认为1"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "hasNext": {
+          "type": "boolean"
+        },
+        "hasPrev": {
+          "type": "boolean"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "nextPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageData": {
+          "type": "array",
+          "description": "分页内容",
+          "items": {
+            "type": "object",
+            "properties": {
+              "airCompanyEnglistName": {
+                "type": "string"
+              },
+              "airCompanyLogoImg": {
+                "type": "string"
+              },
+              "airCompanyName": {
+                "type": "string"
+              },
+              "airCompanyShortName": {
+                "type": "string"
+              },
+              "airlineCode": {
+                "type": "string"
+              },
+              "countryState": {
+                "type": "string"
+              },
+              "id": {
+                "type": "integer",
+                "format": "int32"
+              }
+            },
+            "title": "TBdAirlineTwoWord",
+            "$$ref": "#/definitions/TBdAirlineTwoWord"
+          }
+        },
+        "pageSize": {
+          "type": "integer",
+          "format": "int32",
+          "description": "页面数据条数默认为3"
+        },
+        "prevPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "totalCount": {
+          "type": "integer",
+          "format": "int32",
+          "description": "总条数"
+        }
+      },
+      "title": "PageResult«TBdAirlineTwoWord»",
+      "$$ref": "#/definitions/PageResult«TBdAirlineTwoWord»"
+    }
+  },
+  "title": "FindAirlineListBySqlResponse",
+  "$$ref": "#/definitions/FindAirlineListBySqlResponse"
+}

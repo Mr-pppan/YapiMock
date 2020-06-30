@@ -1,0 +1,266 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "appTime": {
+          "type": "string",
+          "description": "退票申请时间"
+        },
+        "flightType": {
+          "type": "string",
+          "description": "订单类型 1单程 2往返 3多程"
+        },
+        "flightTypeTxt": {
+          "type": "string",
+          "description": "订单类型文本单程往返多程"
+        },
+        "orderNo": {
+          "type": "string",
+          "description": "原订单号"
+        },
+        "passengers": {
+          "type": "array",
+          "description": "乘机人信息",
+          "items": {
+            "type": "object",
+            "properties": {
+              "birthday": {
+                "type": "string",
+                "description": "生日"
+              },
+              "cardNo": {
+                "type": "string",
+                "description": "证件号码"
+              },
+              "cardType": {
+                "type": "string",
+                "description": "证件类型 0身份证 1护照 4港澳通行证 5台胞证 6台湾通行证 7回乡证 9其他"
+              },
+              "gender": {
+                "type": "string",
+                "description": "性别:MALE-男 FEMALE-女"
+              },
+              "initialPnr": {
+                "type": "string",
+                "description": "初始pnr"
+              },
+              "initialTicketNumber": {
+                "type": "string",
+                "description": "原始票号"
+              },
+              "mobile": {
+                "type": "string",
+                "description": "手机号码"
+              },
+              "newPnr": {
+                "type": "string",
+                "description": "新pnr"
+              },
+              "orderNo": {
+                "type": "string",
+                "description": "主单编号"
+              },
+              "psgId": {
+                "type": "string",
+                "description": "乘机人ID"
+              },
+              "psgName": {
+                "type": "string",
+                "description": "乘客姓名(姓、名拼接)"
+              },
+              "psgType": {
+                "type": "string",
+                "description": "乘客类型 1成人 2儿童 3婴儿"
+              },
+              "psgTypeTxt": {
+                "type": "string",
+                "description": "乘客类型文本"
+              },
+              "routeList": {
+                "type": "array",
+                "description": "航段",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "airCompanyCode": {
+                      "type": "string",
+                      "description": "航司二字码"
+                    },
+                    "airCompanyLogoImg": {
+                      "type": "string",
+                      "description": "航司LOGO图片地址"
+                    },
+                    "airCompanyName": {
+                      "type": "string",
+                      "description": "航司名称"
+                    },
+                    "airlineId": {
+                      "type": "string",
+                      "description": "航线id"
+                    },
+                    "arriveDate": {
+                      "type": "string",
+                      "description": "到达日期，格式yyyy-MM-dd，如：2017-10-01"
+                    },
+                    "arriveTime": {
+                      "type": "string",
+                      "description": "到达时间，格式HH:mm，如：07:35"
+                    },
+                    "beginDate": {
+                      "type": "string",
+                      "description": "出发日期，格式yyyy-MM-dd，如：2017-10-01"
+                    },
+                    "beginTime": {
+                      "type": "string",
+                      "description": "出发时间，格式HH:mm，如：07:35"
+                    },
+                    "cabinCode": {
+                      "type": "string",
+                      "description": "仓位代码"
+                    },
+                    "cabinRank": {
+                      "type": "string",
+                      "description": "仓位等级(1, \"头等舱\"),(2, \"公务舱\"),(3, \"经济舱\"),(4, \"豪华经济舱\")"
+                    },
+                    "codeShare": {
+                      "type": "string",
+                      "description": "共享航班,多个用“,”分割"
+                    },
+                    "createTime": {
+                      "type": "string",
+                      "format": "date-time",
+                      "description": "创建时间"
+                    },
+                    "duration": {
+                      "type": "string",
+                      "description": "飞行时长，格式HH:mm，如：3:05，表示飞行3小时5分钟"
+                    },
+                    "eAirportCode": {
+                      "type": "string",
+                      "description": "到达机场三字码"
+                    },
+                    "eAirportName": {
+                      "type": "string",
+                      "description": "到达机场名称"
+                    },
+                    "eCityCode": {
+                      "type": "string",
+                      "description": "到达城市三字码"
+                    },
+                    "eCityName": {
+                      "type": "string",
+                      "description": "到达城市名称"
+                    },
+                    "eTerminal": {
+                      "type": "string",
+                      "description": "到达航站楼"
+                    },
+                    "flightNo": {
+                      "type": "string",
+                      "description": "航班号"
+                    },
+                    "planeType": {
+                      "type": "string",
+                      "description": "机型"
+                    },
+                    "sAirportCode": {
+                      "type": "string",
+                      "description": "出发机场三字码"
+                    },
+                    "sAirportName": {
+                      "type": "string",
+                      "description": "出发机场名称"
+                    },
+                    "sCityCode": {
+                      "type": "string",
+                      "description": "出发城市三字码"
+                    },
+                    "sCityName": {
+                      "type": "string",
+                      "description": "出发城市名称"
+                    },
+                    "sTerminal": {
+                      "type": "string",
+                      "description": "出发航站楼"
+                    },
+                    "segmentNo": {
+                      "type": "string",
+                      "description": "航程id"
+                    },
+                    "stopNum": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "经停次数"
+                    },
+                    "supplierAirlineNo": {
+                      "type": "string",
+                      "description": "供应商航线id"
+                    }
+                  },
+                  "title": "InternationalBuyerManageChangeRoute",
+                  "$$ref": "#/definitions/InternationalBuyerManageChangeRoute"
+                }
+              },
+              "supplierPsgId": {
+                "type": "string",
+                "description": "供应商乘机人id"
+              },
+              "ticketNumber": {
+                "type": "string",
+                "description": "票号"
+              }
+            },
+            "title": "InternationalBuyerManageDetailPassenger",
+            "$$ref": "#/definitions/InternationalBuyerManageDetailPassenger"
+          }
+        },
+        "payAmount": {
+          "type": "number",
+          "description": "订单金额"
+        },
+        "refOrderId": {
+          "type": "string",
+          "description": "退票单id"
+        },
+        "refStatus": {
+          "type": "string",
+          "description": "退票状态(全部:空或不传值; 退票处理中:41; 退票完成:42; 退票失败:43; 退款中:44; 已退款:45;) "
+        },
+        "refStatusTxt": {
+          "type": "string",
+          "description": "退票订单状态文本 "
+        },
+        "remark": {
+          "type": "string",
+          "description": "备注"
+        },
+        "resultTxt": {
+          "type": "string",
+          "description": "退票结果文本"
+        },
+        "ticketTime": {
+          "type": "string",
+          "description": "出票时间 yyyy-MM-dd HH:mm"
+        },
+        "toPrice": {
+          "type": "number",
+          "description": "退款金额"
+        }
+      },
+      "title": "InternationalBuyerManageRefundOrderDetail",
+      "$$ref": "#/definitions/InternationalBuyerManageRefundOrderDetail"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "InternationalBuyerManageRefundOrderDetailResponse",
+  "$$ref": "#/definitions/InternationalBuyerManageRefundOrderDetailResponse"
+}

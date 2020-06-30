@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "records": {
+      "type": "array",
+      "description": "订单记录对象",
+      "items": {
+        "type": "object",
+        "properties": {
+          "recordCount": {
+            "type": "integer",
+            "format": "int32",
+            "description": "记录数"
+          },
+          "status": {
+            "type": "integer",
+            "format": "int32",
+            "description": "退票订单状态，1-所有,2-退票中,3-退票完成,4-不能退票,5-退款中,6-已退款。"
+          },
+          "statusTxt": {
+            "type": "string",
+            "description": "订单状态名称"
+          }
+        },
+        "title": "BuyerRefundCount",
+        "$$ref": "#/definitions/BuyerRefundCount"
+      }
+    }
+  },
+  "title": "BuyerRefundCountResponse",
+  "$$ref": "#/definitions/BuyerRefundCountResponse"
+}

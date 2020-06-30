@@ -1,0 +1,20 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "paymentStatus": {
+      "type": "integer",
+      "format": "int32",
+      "description": "支付结果 1-成功 0-失败"
+    }
+  },
+  "title": "BuyerPayResultResponse",
+  "$$ref": "#/definitions/BuyerPayResultResponse"
+}

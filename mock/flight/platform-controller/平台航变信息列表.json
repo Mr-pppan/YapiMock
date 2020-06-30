@@ -1,0 +1,116 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "pageResult": {
+      "type": "object",
+      "properties": {
+        "currentPage": {
+          "type": "integer",
+          "format": "int32",
+          "description": "当前页码,默认为1"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "hasNext": {
+          "type": "boolean"
+        },
+        "hasPrev": {
+          "type": "boolean"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "nextPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageData": {
+          "type": "array",
+          "description": "分页内容",
+          "items": {
+            "type": "object",
+            "properties": {
+              "airborneTime": {
+                "type": "string",
+                "description": "航变时间"
+              },
+              "changeArriveDT": {
+                "type": "string",
+                "description": "新到达时间"
+              },
+              "changeBeginDT": {
+                "type": "string",
+                "description": "新出发时间"
+              },
+              "flightNo": {
+                "type": "string",
+                "description": "航班号"
+              },
+              "lastUserName": {
+                "type": "string",
+                "description": "添加人"
+              },
+              "lastUserTime": {
+                "type": "string",
+                "description": "添加时间"
+              },
+              "oldArriveCityName": {
+                "type": "string",
+                "description": "到达地"
+              },
+              "oldArriveDT": {
+                "type": "string",
+                "description": "原到达时间"
+              },
+              "oldBeginCityName": {
+                "type": "string",
+                "description": "出发地"
+              },
+              "oldBeginDT": {
+                "type": "string",
+                "description": "原出发时间"
+              },
+              "remark": {
+                "type": "string",
+                "description": "变动原因"
+              }
+            },
+            "title": "PlatformAirChangeListVo",
+            "$$ref": "#/definitions/PlatformAirChangeListVo"
+          }
+        },
+        "pageSize": {
+          "type": "integer",
+          "format": "int32",
+          "description": "页面数据条数默认为3"
+        },
+        "prevPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "totalCount": {
+          "type": "integer",
+          "format": "int32",
+          "description": "总条数"
+        }
+      },
+      "title": "PageResult«PlatformAirChangeListVo»",
+      "$$ref": "#/definitions/PageResult«PlatformAirChangeListVo»"
+    }
+  },
+  "title": "PlatformAirChangeListResponse",
+  "$$ref": "#/definitions/PlatformAirChangeListResponse"
+}

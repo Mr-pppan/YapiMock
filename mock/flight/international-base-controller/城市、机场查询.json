@@ -1,0 +1,54 @@
+{
+  "type": "object",
+  "properties": {
+    "citys": {
+      "type": "array",
+      "description": "城市列表",
+      "items": {
+        "type": "object",
+        "properties": {
+          "airports": {
+            "type": "boolean",
+            "description": "true 机场、false 城市"
+          },
+          "cityCode": {
+            "type": "string",
+            "description": "城市三字码"
+          },
+          "code": {
+            "type": "string",
+            "description": "城市/机场三字码"
+          },
+          "initial": {
+            "type": "string",
+            "description": "首字母"
+          },
+          "isHot": {
+            "type": "string",
+            "description": "是否热门城市"
+          },
+          "name": {
+            "type": "string",
+            "description": "城市/机场名称"
+          },
+          "spell": {
+            "type": "string",
+            "description": "拼音全拼"
+          }
+        },
+        "title": "CityTree",
+        "$$ref": "#/definitions/CityTree"
+      }
+    },
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "FindCityTreeBySqlResponse",
+  "$$ref": "#/definitions/FindCityTreeBySqlResponse"
+}

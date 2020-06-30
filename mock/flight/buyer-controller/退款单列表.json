@@ -1,0 +1,171 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    },
+    "pageResult": {
+      "type": "object",
+      "properties": {
+        "currentPage": {
+          "type": "integer",
+          "format": "int32",
+          "description": "当前页码,默认为1"
+        },
+        "first": {
+          "type": "boolean"
+        },
+        "hasNext": {
+          "type": "boolean"
+        },
+        "hasPrev": {
+          "type": "boolean"
+        },
+        "last": {
+          "type": "boolean"
+        },
+        "nextPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageCount": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "pageData": {
+          "type": "array",
+          "description": "分页内容",
+          "items": {
+            "type": "object",
+            "properties": {
+              "appTime": {
+                "type": "string",
+                "format": "date-time",
+                "description": "申请时间"
+              },
+              "btnTypes": {
+                "type": "array",
+                "description": "CONFIRM-确认退票， VIEW-查看订单",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "businessNo": {
+                "type": "string",
+                "description": "业务单号"
+              },
+              "passenger": {
+                "type": "array",
+                "description": "乘机人信息",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "pnr": {
+                      "type": "string",
+                      "description": "pnr编码"
+                    },
+                    "psgName": {
+                      "type": "string",
+                      "description": "乘机人名字"
+                    },
+                    "psgType": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "乘机人类型"
+                    },
+                    "psgTypeText": {
+                      "type": "string",
+                      "description": "乘机人类型"
+                    },
+                    "ticketNumber": {
+                      "type": "string",
+                      "description": "票号"
+                    }
+                  },
+                  "title": "ReimbursePassengerInfo",
+                  "$$ref": "#/definitions/ReimbursePassengerInfo"
+                }
+              },
+              "reiOrderNo": {
+                "type": "string",
+                "description": "退款单号"
+              },
+              "reiStatus": {
+                "type": "string",
+                "description": "退款状态"
+              },
+              "reiStatusText": {
+                "type": "string",
+                "description": "退款状态"
+              },
+              "reimburseMode": {
+                "type": "string",
+                "description": "退款方式 "
+              },
+              "reimburseMoney": {
+                "type": "number",
+                "description": "退款金额"
+              },
+              "segment": {
+                "type": "array",
+                "description": "航段信息",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "arrCityName": {
+                      "type": "string",
+                      "description": "到达城市名字"
+                    },
+                    "cabin": {
+                      "type": "string",
+                      "description": "舱位代码"
+                    },
+                    "depCityName": {
+                      "type": "string",
+                      "description": "出发城市名称"
+                    },
+                    "flightNo": {
+                      "type": "string",
+                      "description": "航班号"
+                    }
+                  },
+                  "title": "ReimburseSegmentInfo",
+                  "$$ref": "#/definitions/ReimburseSegmentInfo"
+                }
+              },
+              "trxType": {
+                "type": "string",
+                "description": "交易流水号"
+              }
+            },
+            "title": "ReimburseListVo",
+            "$$ref": "#/definitions/ReimburseListVo"
+          }
+        },
+        "pageSize": {
+          "type": "integer",
+          "format": "int32",
+          "description": "页面数据条数默认为3"
+        },
+        "prevPage": {
+          "type": "integer",
+          "format": "int32"
+        },
+        "totalCount": {
+          "type": "integer",
+          "format": "int32",
+          "description": "总条数"
+        }
+      },
+      "title": "PageResult«ReimburseListVo»",
+      "$$ref": "#/definitions/PageResult«ReimburseListVo»"
+    }
+  },
+  "title": "ReimburseResponse",
+  "$$ref": "#/definitions/ReimburseResponse"
+}

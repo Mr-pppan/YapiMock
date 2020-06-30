@@ -1,686 +1,674 @@
 {
-    "data": {
-        "/supplier/dom/51book/change": {
-            "url": "/supplier/dom/51book/change",
-            "path": "D:\\yinzlMock/mock/flight/book-51-callback-controller/change.json",
-            "title": "change",
-            "method": "POST"
-        },
-        "/supplier/dom/51book/refund": {
-            "url": "/supplier/dom/51book/refund",
-            "path": "D:\\yinzlMock/mock/flight/book-51-callback-controller/refund.json",
-            "title": "refund",
-            "method": "POST"
-        },
-        "/supplier/dom/51book/ticket": {
-            "url": "/supplier/dom/51book/ticket",
-            "path": "D:\\yinzlMock/mock/flight/book-51-callback-controller/ticket.json",
-            "title": "ticket",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/cancelRefund": {
-            "url": "/buyer/dom/manage/cancelRefund",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/取消退票.json",
-            "title": "取消退票",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/changeList": {
-            "url": "/buyer/dom/manage/changeList",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/改签列表.json",
-            "title": "改签列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/change": {
-            "url": "/buyer/dom/manage/change",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/改签申请信息.json",
-            "title": "改签申请信息",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/order/change/log/list": {
-            "url": "/buyer/dom/manage/order/change/log/list",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/改签订单操作日志.json",
-            "title": "改签订单操作日志",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/changeCount": {
-            "url": "/buyer/dom/manage/changeCount",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/改签订单记录数.json",
-            "title": "改签订单记录数",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/changeDetail": {
-            "url": "/buyer/dom/manage/changeDetail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/改签订单详情.json",
-            "title": "改签订单详情",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/update": {
-            "url": "/buyer/dom/manage/itinerary/update",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/更新行程单状态.json",
-            "title": "更新行程单状态",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/mailing/list": {
-            "url": "/buyer/dom/manage/itinerary/mailing/list",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/物流列表.json",
-            "title": "物流列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/add": {
-            "url": "/buyer/dom/manage/itinerary/add",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/申请行程单.json",
-            "title": "申请行程单",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/confirmRefund": {
-            "url": "/buyer/dom/manage/confirmRefund",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/确认退票.json",
-            "title": "确认退票",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/AirChangeList": {
-            "url": "/buyer/dom/manage/AirChangeList",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/航变列表.json",
-            "title": "航变列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/psgByOrder": {
-            "url": "/buyer/dom/manage/itinerary/psgByOrder",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/获取订单的可申请行程单的乘机人编号集合.json",
-            "title": "获取订单的可申请行程单的乘机人编号集合",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/list": {
-            "url": "/buyer/dom/manage/itinerary/list",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单列表.json",
-            "title": "行程单列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/save/detail": {
-            "url": "/buyer/dom/manage/itinerary/save/detail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单打印保存参数.json",
-            "title": "行程单打印保存参数",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/print/detail": {
-            "url": "/buyer/dom/manage/itinerary/print/detail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单打印查询.json",
-            "title": "行程单打印查询",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/fee": {
-            "url": "/buyer/dom/manage/itinerary/fee",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单类型单张打印费用.json",
-            "title": "行程单类型单张打印费用",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/detail": {
-            "url": "/buyer/dom/manage/itinerary/detail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单详情-乘机人入口.json",
-            "title": "行程单详情-乘机人入口",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/itinerary/total": {
-            "url": "/buyer/dom/manage/itinerary/total",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/行程单费用明细.json",
-            "title": "行程单费用明细",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/orderList": {
-            "url": "/buyer/dom/manage/orderList",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/订单列表.json",
-            "title": "订单列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/log/list": {
-            "url": "/buyer/dom/manage/log/list",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/订单操作日志.json",
-            "title": "订单操作日志",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/orderLog": {
-            "url": "/buyer/dom/manage/orderLog",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/订单日志查询.json",
-            "title": "订单日志查询",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/count": {
-            "url": "/buyer/dom/manage/count",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/订单记录数.json",
-            "title": "订单记录数",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/orderDetail": {
-            "url": "/buyer/dom/manage/orderDetail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/订单详情查询.json",
-            "title": "订单详情查询",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/reimburseList": {
-            "url": "/buyer/dom/manage/reimburseList",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退款单列表.json",
-            "title": "退款单列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/reimburseCount": {
-            "url": "/buyer/dom/manage/reimburseCount",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退款单记录数.json",
-            "title": "退款单记录数",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/reimburseRemark": {
-            "url": "/buyer/dom/manage/reimburseRemark",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退款备注修改.json",
-            "title": "退款备注修改",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/refundList": {
-            "url": "/buyer/dom/manage/refundList",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退票列表.json",
-            "title": "退票列表",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/refundCount": {
-            "url": "/buyer/dom/manage/refundCount",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退票列表记录数.json",
-            "title": "退票列表记录数",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/refundLog": {
-            "url": "/buyer/dom/manage/refundLog",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退票日志查询.json",
-            "title": "退票日志查询",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/refund": {
-            "url": "/buyer/dom/manage/refund",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退票申请信息.json",
-            "title": "退票申请信息",
-            "method": "POST"
-        },
-        "/buyer/dom/manage/refundDetail": {
-            "url": "/buyer/dom/manage/refundDetail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-controller/退票订单详情.json",
-            "title": "退票订单详情",
-            "method": "POST"
-        },
-        "/buyer/dom/white/cancel": {
-            "url": "/buyer/dom/white/cancel",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/取消订单.json",
-            "title": "取消订单",
-            "method": "POST"
-        },
-        "/buyer/dom/white/submit": {
-            "url": "/buyer/dom/white/submit",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/提交订单-平台.json",
-            "title": "提交订单-平台",
-            "method": "POST"
-        },
-        "/buyer/dom/white/change": {
-            "url": "/buyer/dom/white/change",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/改签申请.json",
-            "title": "改签申请",
-            "method": "POST"
-        },
-        "/buyer/dom/white/flights": {
-            "url": "/buyer/dom/white/flights",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/航班列表.json",
-            "title": "航班列表",
-            "method": "POST"
-        },
-        "/buyer/dom/white/detail": {
-            "url": "/buyer/dom/white/detail",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/航班详情.json",
-            "title": "航班详情",
-            "method": "POST"
-        },
-        "/buyer/dom/white/luggage": {
-            "url": "/buyer/dom/white/luggage",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/行李信息.json",
-            "title": "行李信息",
-            "method": "POST"
-        },
-        "/buyer/dom/white/rule": {
-            "url": "/buyer/dom/white/rule",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/退改签规定.json",
-            "title": "退改签规定",
-            "method": "POST"
-        },
-        "/buyer/dom/white/refund": {
-            "url": "/buyer/dom/white/refund",
-            "path": "D:\\yinzlMock/mock/flight/buyer-dom-white-controller/退票申请.json",
-            "title": "退票申请",
-            "method": "POST"
-        },
-        "/base/dom/countrys": {
-            "url": "/base/dom/countrys",
-            "path": "D:\\yinzlMock/mock/flight/general-controller/国家信息查询.json",
-            "title": "国家信息查询",
-            "method": "POST"
-        },
-        "/base/dom/citys": {
-            "url": "/base/dom/citys",
-            "path": "D:\\yinzlMock/mock/flight/general-controller/城市、机场查询.json",
-            "title": "城市、机场查询",
-            "method": "POST"
-        },
-        "/base/dom/airlines": {
-            "url": "/base/dom/airlines",
-            "path": "D:\\yinzlMock/mock/flight/general-controller/获取国内航司.json",
-            "title": "获取国内航司",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findPkfareChangeOrder": {
-            "url": "/flight/inter/buyer/manage/order/findPkfareChangeOrder",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-order-change-controller/国际PKFARE申请改签详情查询.json",
-            "title": "国际PKFARE申请改签详情查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findChangeOrderDetail": {
-            "url": "/flight/inter/buyer/manage/order/findChangeOrderDetail",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-order-change-controller/国际已改签订单详情查询.json",
-            "title": "国际已改签订单详情查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findChangeList": {
-            "url": "/flight/inter/buyer/manage/order/findChangeList",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-order-change-controller/国际改签订单列表查询.json",
-            "title": "国际改签订单列表查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findChangeOrder": {
-            "url": "/flight/inter/buyer/manage/order/findChangeOrder",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-order-change-controller/国际申请改签查询.json",
-            "title": "国际申请改签查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findRefundOrderList": {
-            "url": "/flight/inter/buyer/manage/order/findRefundOrderList",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-refund-order-controller/国际退票订单列表查询.json",
-            "title": "国际退票订单列表查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findRefundOrderDetail": {
-            "url": "/flight/inter/buyer/manage/order/findRefundOrderDetail",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-refund-order-controller/国际退票订单详情查询.json",
-            "title": "国际退票订单详情查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/manage/returnMoney/list": {
-            "url": "/flight/international/buyer/manage/returnMoney/list",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-returnd-money-controller/退款订单列表查询.json",
-            "title": "退款订单列表查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/manage/returnMoney/remark": {
-            "url": "/flight/international/buyer/manage/returnMoney/remark",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-returnd-money-controller/退款订单备注.json",
-            "title": "退款订单备注",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findVoidOrderList": {
-            "url": "/flight/inter/buyer/manage/order/findVoidOrderList",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-void-order-controller/国际废票订单列表查询.json",
-            "title": "国际废票订单列表查询",
-            "method": "POST"
-        },
-        "/flight/inter/buyer/manage/order/findVoidOrderDetail": {
-            "url": "/flight/inter/buyer/manage/order/findVoidOrderDetail",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-manage-void-order-controller/国际废票订单详情查询.json",
-            "title": "国际废票订单详情查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/flight/list": {
-            "url": "/flight/international/buyer/white/flight/list",
-            "path": "D:\\yinzlMock/mock/flight/inter-buyer-white-flight-controller/航班列表查询.json",
-            "title": "航班列表查询",
-            "method": "POST"
-        },
-        "/flight/international/citys": {
-            "url": "/flight/international/citys",
-            "path": "D:\\yinzlMock/mock/flight/international-base-controller/城市、机场查询.json",
-            "title": "城市、机场查询",
-            "method": "POST"
-        },
-        "/flight/international/airlines": {
-            "url": "/flight/international/airlines",
-            "path": "D:\\yinzlMock/mock/flight/international-base-controller/航空公司查询.json",
-            "title": "航空公司查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/manage/order/list": {
-            "url": "/flight/international/buyer/manage/order/list",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-manage-order-controller/采购订单列表查询.json",
-            "title": "采购订单列表查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/manage/order/detail": {
-            "url": "/flight/international/buyer/manage/order/detail",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-manage-order-controller/采购订单详情.json",
-            "title": "采购订单详情",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/cancel": {
-            "url": "/flight/international/buyer/white/order/cancel",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/取消订单.json",
-            "title": "取消订单",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/findPkfareChangeReshop": {
-            "url": "/flight/international/buyer/white/order/findPkfareChangeReshop",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/国际PKFARE改签航班查询.json",
-            "title": "国际PKFARE改签航班查询",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/pkfareChangeRequest": {
-            "url": "/flight/international/buyer/white/order/pkfareChangeRequest",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/国际PKFARE申请改签.json",
-            "title": "国际PKFARE申请改签",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/payChange": {
-            "url": "/flight/international/buyer/white/order/payChange",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/改签补款.json",
-            "title": "改签补款",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/reserve": {
-            "url": "/flight/international/buyer/white/order/reserve",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/机票预定.json",
-            "title": "机票预定",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/reserve/params": {
-            "url": "/flight/international/buyer/white/order/reserve/params",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/机票预定下单所需数据.json",
-            "title": "机票预定下单所需数据",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/invalid": {
-            "url": "/flight/international/buyer/white/order/invalid",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/申请作废.json",
-            "title": "申请作废",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/change": {
-            "url": "/flight/international/buyer/white/order/change",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/申请改签.json",
-            "title": "申请改签",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/refund": {
-            "url": "/flight/international/buyer/white/order/refund",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/申请退票.json",
-            "title": "申请退票",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/pay": {
-            "url": "/flight/international/buyer/white/order/pay",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/订单支付.json",
-            "title": "订单支付",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/check": {
-            "url": "/flight/international/buyer/white/order/check",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/订单支付前验价.json",
-            "title": "订单支付前验价",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/refundConfirm": {
-            "url": "/flight/international/buyer/white/order/refundConfirm",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/退票确认.json",
-            "title": "退票确认",
-            "method": "POST"
-        },
-        "/flight/international/buyer/white/order/checkPrice": {
-            "url": "/flight/international/buyer/white/order/checkPrice",
-            "path": "D:\\yinzlMock/mock/flight/international-buyer-white-order-controller/预订前检验价格.json",
-            "title": "预订前检验价格",
-            "method": "POST"
-        },
-        "/payment/callback": {
-            "url": "/payment/callback",
-            "path": "D:\\yinzlMock/mock/flight/payment-callback-controller/支付回调.json",
-            "title": "支付回调",
-            "method": "POST"
-        },
-        "/payment/params": {
-            "url": "/payment/params",
-            "path": "D:\\yinzlMock/mock/flight/payment-controller/获取支付参数.json",
-            "title": "获取支付参数",
-            "method": "POST"
-        },
-        "/payment/result": {
-            "url": "/payment/result",
-            "path": "D:\\yinzlMock/mock/flight/payment-controller/获取支付结果.json",
-            "title": "获取支付结果",
-            "method": "POST"
-        },
-        "/plat/dom/manage/supplierPay": {
-            "url": "/plat/dom/manage/supplierPay",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/供应商重新发起扣款.json",
-            "title": "供应商重新发起扣款",
-            "method": "POST"
-        },
-        "/plat/dom/manage/childRefundOperation": {
-            "url": "/plat/dom/manage/childRefundOperation",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/儿童手工退票操作.json",
-            "title": "儿童手工退票操作",
-            "method": "POST"
-        },
-        "/plat/dom/manage/rerationOrder": {
-            "url": "/plat/dom/manage/rerationOrder",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/关联新订单.json",
-            "title": "关联新订单",
-            "method": "POST"
-        },
-        "/plat/dom/manage/childTicketOperation": {
-            "url": "/plat/dom/manage/childTicketOperation",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/出票操作-儿童.json",
-            "title": "出票操作-儿童",
-            "method": "POST"
-        },
-        "/plat/dom/manage/ticketOperation": {
-            "url": "/plat/dom/manage/ticketOperation",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/出票操作-往返.json",
-            "title": "出票操作-往返",
-            "method": "POST"
-        },
-        "/plat/dom/manage/child/order/change/operation": {
-            "url": "/plat/dom/manage/child/order/change/operation",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台-儿童改签操作.json",
-            "title": "平台-儿童改签操作",
-            "method": "POST"
-        },
-        "/plat/dom/manage/order/change/oneWay": {
-            "url": "/plat/dom/manage/order/change/oneWay",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台-单程改签操作(成人 + 儿童).json",
-            "title": "平台-单程改签操作(成人 + 儿童)",
-            "method": "POST"
-        },
-        "/plat/dom/manage/order/change/roundTrip": {
-            "url": "/plat/dom/manage/order/change/roundTrip",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台-往返改签操作(成人 + 儿童).json",
-            "title": "平台-往返改签操作(成人 + 儿童)",
-            "method": "POST"
-        },
-        "/plat/dom/manage/ticket": {
-            "url": "/plat/dom/manage/ticket",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台出票操作查询.json",
-            "title": "平台出票操作查询",
-            "method": "POST"
-        },
-        "/plat/dom/manage/change": {
-            "url": "/plat/dom/manage/change",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台改签操作查询.json",
-            "title": "平台改签操作查询",
-            "method": "POST"
-        },
-        "/plat/dom/manage/creatAirChange": {
-            "url": "/plat/dom/manage/creatAirChange",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台新增航变信息.json",
-            "title": "平台新增航变信息",
-            "method": "POST"
-        },
-        "/plat/dom/manage/AirChangeList": {
-            "url": "/plat/dom/manage/AirChangeList",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/平台航变信息列表.json",
-            "title": "平台航变信息列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/changeList": {
-            "url": "/plat/dom/manage/changeList",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/改签列表.json",
-            "title": "改签列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/order/change/log/list": {
-            "url": "/plat/dom/manage/order/change/log/list",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/改签订单操作日志.json",
-            "title": "改签订单操作日志",
-            "method": "POST"
-        },
-        "/plat/dom/manage/changeCount": {
-            "url": "/plat/dom/manage/changeCount",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/改签订单记录数.json",
-            "title": "改签订单记录数",
-            "method": "POST"
-        },
-        "/plat/dom/manage/changeDetail": {
-            "url": "/plat/dom/manage/changeDetail",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/改签订单详情.json",
-            "title": "改签订单详情",
-            "method": "POST"
-        },
-        "/plat/dom/manage/itinerary/list": {
-            "url": "/plat/dom/manage/itinerary/list",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/行程单列表.json",
-            "title": "行程单列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/itinerary/logisticsNum": {
-            "url": "/plat/dom/manage/itinerary/logisticsNum",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/行程单增加物流号.json",
-            "title": "行程单增加物流号",
-            "method": "POST"
-        },
-        "/plat/dom/manage/itinerary/detail": {
-            "url": "/plat/dom/manage/itinerary/detail",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/行程单详情.json",
-            "title": "行程单详情",
-            "method": "POST"
-        },
-        "/plat/dom/manage/orderList": {
-            "url": "/plat/dom/manage/orderList",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/订单列表.json",
-            "title": "订单列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/order/log/list": {
-            "url": "/plat/dom/manage/order/log/list",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/订单操作日志.json",
-            "title": "订单操作日志",
-            "method": "POST"
-        },
-        "/plat/dom/manage/orderLog": {
-            "url": "/plat/dom/manage/orderLog",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/订单日志查询.json",
-            "title": "订单日志查询",
-            "method": "POST"
-        },
-        "/plat/dom/manage/count": {
-            "url": "/plat/dom/manage/count",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/订单记录数.json",
-            "title": "订单记录数",
-            "method": "POST"
-        },
-        "/plat/dom/manage/orderDetail": {
-            "url": "/plat/dom/manage/orderDetail",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/订单详情(成人 + 儿童).json",
-            "title": "订单详情(成人 + 儿童)",
-            "method": "POST"
-        },
-        "/plat/dom/manage/reimburseList": {
-            "url": "/plat/dom/manage/reimburseList",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退款单列表.json",
-            "title": "退款单列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/reimburseCount": {
-            "url": "/plat/dom/manage/reimburseCount",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退款单记录数.json",
-            "title": "退款单记录数",
-            "method": "POST"
-        },
-        "/plat/dom/manage/reimburseAffirm": {
-            "url": "/plat/dom/manage/reimburseAffirm",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退款确认.json",
-            "title": "退款确认",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundList": {
-            "url": "/plat/dom/manage/refundList",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票列表.json",
-            "title": "退票列表",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundCount": {
-            "url": "/plat/dom/manage/refundCount",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票列表记录数.json",
-            "title": "退票列表记录数",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundLog": {
-            "url": "/plat/dom/manage/refundLog",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票单日志查询.json",
-            "title": "退票单日志查询",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundOperation": {
-            "url": "/plat/dom/manage/refundOperation",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票操作(成人 + 儿童).json",
-            "title": "退票操作(成人 + 儿童)",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundAffirm": {
-            "url": "/plat/dom/manage/refundAffirm",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票确认.json",
-            "title": "退票确认",
-            "method": "POST"
-        },
-        "/plat/dom/manage/refundDetail": {
-            "url": "/plat/dom/manage/refundDetail",
-            "path": "D:\\yinzlMock/mock/flight/platform-controller/退票订单详情.json",
-            "title": "退票订单详情",
-            "method": "POST"
-        },
-        "/simulate/ticket": {
-            "url": "/simulate/ticket",
-            "path": "D:\\yinzlMock/mock/flight/simulate-controller/出票.json",
-            "title": "出票",
-            "method": "POST"
-        },
-        "/simulate/change": {
-            "url": "/simulate/change",
-            "path": "D:\\yinzlMock/mock/flight/simulate-controller/改签.json",
-            "title": "改签",
-            "method": "POST"
-        },
-        "/simulate/refund": {
-            "url": "/simulate/refund",
-            "path": "D:\\yinzlMock/mock/flight/simulate-controller/退票.json",
-            "title": "退票",
-            "method": "POST"
-        },
-        "/test": {
-            "url": "/web/common/userSupplier/details",
-            "path": "D:\\yinzlMock/mock/a.json",
-            "method": "POST"
-        },
-        "/test2": {
-            "url": "/web/common/userBuyer/findOne",
-            "path": "D:\\yinzlMock/mock/b.json",
-            "method": "POST"
-        }
+    "/supplier/dom/51book/change": {
+        "url": "/supplier/dom/51book/change",
+        "path": "D:\\yinzlMock\\mock/flight/book-51-callback-controller/change.json",
+        "title": "change",
+        "method": "POST"
+    },
+    "/supplier/dom/51book/refund": {
+        "url": "/supplier/dom/51book/refund",
+        "path": "D:\\yinzlMock\\mock/flight/book-51-callback-controller/refund.json",
+        "title": "refund",
+        "method": "POST"
+    },
+    "/supplier/dom/51book/ticket": {
+        "url": "/supplier/dom/51book/ticket",
+        "path": "D:\\yinzlMock\\mock/flight/book-51-callback-controller/ticket.json",
+        "title": "ticket",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/cancelRefund": {
+        "url": "/buyer/dom/manage/cancelRefund",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/取消退票.json",
+        "title": "取消退票",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/changeList": {
+        "url": "/buyer/dom/manage/changeList",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/改签列表.json",
+        "title": "改签列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/change": {
+        "url": "/buyer/dom/manage/change",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/改签申请信息.json",
+        "title": "改签申请信息",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/order/change/log/list": {
+        "url": "/buyer/dom/manage/order/change/log/list",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/改签订单操作日志.json",
+        "title": "改签订单操作日志",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/changeCount": {
+        "url": "/buyer/dom/manage/changeCount",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/改签订单记录数.json",
+        "title": "改签订单记录数",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/changeDetail": {
+        "url": "/buyer/dom/manage/changeDetail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/改签订单详情.json",
+        "title": "改签订单详情",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/update": {
+        "url": "/buyer/dom/manage/itinerary/update",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/更新行程单状态.json",
+        "title": "更新行程单状态",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/mailing/list": {
+        "url": "/buyer/dom/manage/itinerary/mailing/list",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/物流列表.json",
+        "title": "物流列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/add": {
+        "url": "/buyer/dom/manage/itinerary/add",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/申请行程单.json",
+        "title": "申请行程单",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/confirmRefund": {
+        "url": "/buyer/dom/manage/confirmRefund",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/确认退票.json",
+        "title": "确认退票",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/AirChangeList": {
+        "url": "/buyer/dom/manage/AirChangeList",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/航变列表.json",
+        "title": "航变列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/psgByOrder": {
+        "url": "/buyer/dom/manage/itinerary/psgByOrder",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/获取订单的可申请行程单的乘机人编号集合.json",
+        "title": "获取订单的可申请行程单的乘机人编号集合",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/list": {
+        "url": "/buyer/dom/manage/itinerary/list",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单列表.json",
+        "title": "行程单列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/save/detail": {
+        "url": "/buyer/dom/manage/itinerary/save/detail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单打印保存参数.json",
+        "title": "行程单打印保存参数",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/print/detail": {
+        "url": "/buyer/dom/manage/itinerary/print/detail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单打印查询.json",
+        "title": "行程单打印查询",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/fee": {
+        "url": "/buyer/dom/manage/itinerary/fee",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单类型单张打印费用.json",
+        "title": "行程单类型单张打印费用",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/detail": {
+        "url": "/buyer/dom/manage/itinerary/detail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单详情-乘机人入口.json",
+        "title": "行程单详情-乘机人入口",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/itinerary/total": {
+        "url": "/buyer/dom/manage/itinerary/total",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/行程单费用明细.json",
+        "title": "行程单费用明细",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/orderList": {
+        "url": "/buyer/dom/manage/orderList",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/订单列表.json",
+        "title": "订单列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/log/list": {
+        "url": "/buyer/dom/manage/log/list",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/订单操作日志.json",
+        "title": "订单操作日志",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/orderLog": {
+        "url": "/buyer/dom/manage/orderLog",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/订单日志查询.json",
+        "title": "订单日志查询",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/count": {
+        "url": "/buyer/dom/manage/count",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/订单记录数.json",
+        "title": "订单记录数",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/orderDetail": {
+        "url": "/buyer/dom/manage/orderDetail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/订单详情查询.json",
+        "title": "订单详情查询",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/reimburseList": {
+        "url": "/buyer/dom/manage/reimburseList",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退款单列表.json",
+        "title": "退款单列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/reimburseCount": {
+        "url": "/buyer/dom/manage/reimburseCount",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退款单记录数.json",
+        "title": "退款单记录数",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/reimburseRemark": {
+        "url": "/buyer/dom/manage/reimburseRemark",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退款备注修改.json",
+        "title": "退款备注修改",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/refundList": {
+        "url": "/buyer/dom/manage/refundList",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退票列表.json",
+        "title": "退票列表",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/refundCount": {
+        "url": "/buyer/dom/manage/refundCount",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退票列表记录数.json",
+        "title": "退票列表记录数",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/refundLog": {
+        "url": "/buyer/dom/manage/refundLog",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退票日志查询.json",
+        "title": "退票日志查询",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/refund": {
+        "url": "/buyer/dom/manage/refund",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退票申请信息.json",
+        "title": "退票申请信息",
+        "method": "POST"
+    },
+    "/buyer/dom/manage/refundDetail": {
+        "url": "/buyer/dom/manage/refundDetail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-controller/退票订单详情.json",
+        "title": "退票订单详情",
+        "method": "POST"
+    },
+    "/buyer/dom/white/cancel": {
+        "url": "/buyer/dom/white/cancel",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/取消订单.json",
+        "title": "取消订单",
+        "method": "POST"
+    },
+    "/buyer/dom/white/submit": {
+        "url": "/buyer/dom/white/submit",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/提交订单-平台.json",
+        "title": "提交订单-平台",
+        "method": "POST"
+    },
+    "/buyer/dom/white/change": {
+        "url": "/buyer/dom/white/change",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/改签申请.json",
+        "title": "改签申请",
+        "method": "POST"
+    },
+    "/buyer/dom/white/flights": {
+        "url": "/buyer/dom/white/flights",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/航班列表.json",
+        "title": "航班列表",
+        "method": "POST"
+    },
+    "/buyer/dom/white/detail": {
+        "url": "/buyer/dom/white/detail",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/航班详情.json",
+        "title": "航班详情",
+        "method": "POST"
+    },
+    "/buyer/dom/white/luggage": {
+        "url": "/buyer/dom/white/luggage",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/行李信息.json",
+        "title": "行李信息",
+        "method": "POST"
+    },
+    "/buyer/dom/white/rule": {
+        "url": "/buyer/dom/white/rule",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/退改签规定.json",
+        "title": "退改签规定",
+        "method": "POST"
+    },
+    "/buyer/dom/white/refund": {
+        "url": "/buyer/dom/white/refund",
+        "path": "D:\\yinzlMock\\mock/flight/buyer-dom-white-controller/退票申请.json",
+        "title": "退票申请",
+        "method": "POST"
+    },
+    "/base/dom/countrys": {
+        "url": "/base/dom/countrys",
+        "path": "D:\\yinzlMock\\mock/flight/general-controller/国家信息查询.json",
+        "title": "国家信息查询",
+        "method": "POST"
+    },
+    "/base/dom/citys": {
+        "url": "/base/dom/citys",
+        "path": "D:\\yinzlMock\\mock/flight/general-controller/城市、机场查询.json",
+        "title": "城市、机场查询",
+        "method": "POST"
+    },
+    "/base/dom/airlines": {
+        "url": "/base/dom/airlines",
+        "path": "D:\\yinzlMock\\mock/flight/general-controller/获取国内航司.json",
+        "title": "获取国内航司",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findPkfareChangeOrder": {
+        "url": "/flight/inter/buyer/manage/order/findPkfareChangeOrder",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-order-change-controller/国际PKFARE申请改签详情查询.json",
+        "title": "国际PKFARE申请改签详情查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findChangeOrderDetail": {
+        "url": "/flight/inter/buyer/manage/order/findChangeOrderDetail",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-order-change-controller/国际已改签订单详情查询.json",
+        "title": "国际已改签订单详情查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findChangeList": {
+        "url": "/flight/inter/buyer/manage/order/findChangeList",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-order-change-controller/国际改签订单列表查询.json",
+        "title": "国际改签订单列表查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findChangeOrder": {
+        "url": "/flight/inter/buyer/manage/order/findChangeOrder",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-order-change-controller/国际申请改签查询.json",
+        "title": "国际申请改签查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findRefundOrderList": {
+        "url": "/flight/inter/buyer/manage/order/findRefundOrderList",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-refund-order-controller/国际退票订单列表查询.json",
+        "title": "国际退票订单列表查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findRefundOrderDetail": {
+        "url": "/flight/inter/buyer/manage/order/findRefundOrderDetail",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-refund-order-controller/国际退票订单详情查询.json",
+        "title": "国际退票订单详情查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/manage/returnMoney/list": {
+        "url": "/flight/international/buyer/manage/returnMoney/list",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-returnd-money-controller/退款订单列表查询.json",
+        "title": "退款订单列表查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/manage/returnMoney/remark": {
+        "url": "/flight/international/buyer/manage/returnMoney/remark",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-returnd-money-controller/退款订单备注.json",
+        "title": "退款订单备注",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findVoidOrderList": {
+        "url": "/flight/inter/buyer/manage/order/findVoidOrderList",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-void-order-controller/国际废票订单列表查询.json",
+        "title": "国际废票订单列表查询",
+        "method": "POST"
+    },
+    "/flight/inter/buyer/manage/order/findVoidOrderDetail": {
+        "url": "/flight/inter/buyer/manage/order/findVoidOrderDetail",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-manage-void-order-controller/国际废票订单详情查询.json",
+        "title": "国际废票订单详情查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/flight/list": {
+        "url": "/flight/international/buyer/white/flight/list",
+        "path": "D:\\yinzlMock\\mock/flight/inter-buyer-white-flight-controller/航班列表查询.json",
+        "title": "航班列表查询",
+        "method": "POST"
+    },
+    "/flight/international/citys": {
+        "url": "/flight/international/citys",
+        "path": "D:\\yinzlMock\\mock/flight/international-base-controller/城市、机场查询.json",
+        "title": "城市、机场查询",
+        "method": "POST"
+    },
+    "/flight/international/airlines": {
+        "url": "/flight/international/airlines",
+        "path": "D:\\yinzlMock\\mock/flight/international-base-controller/航空公司查询.json",
+        "title": "航空公司查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/manage/order/list": {
+        "url": "/flight/international/buyer/manage/order/list",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-manage-order-controller/采购订单列表查询.json",
+        "title": "采购订单列表查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/manage/order/detail": {
+        "url": "/flight/international/buyer/manage/order/detail",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-manage-order-controller/采购订单详情.json",
+        "title": "采购订单详情",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/cancel": {
+        "url": "/flight/international/buyer/white/order/cancel",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/取消订单.json",
+        "title": "取消订单",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/findPkfareChangeReshop": {
+        "url": "/flight/international/buyer/white/order/findPkfareChangeReshop",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/国际PKFARE改签航班查询.json",
+        "title": "国际PKFARE改签航班查询",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/pkfareChangeRequest": {
+        "url": "/flight/international/buyer/white/order/pkfareChangeRequest",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/国际PKFARE申请改签.json",
+        "title": "国际PKFARE申请改签",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/payChange": {
+        "url": "/flight/international/buyer/white/order/payChange",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/改签补款.json",
+        "title": "改签补款",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/reserve": {
+        "url": "/flight/international/buyer/white/order/reserve",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/机票预定.json",
+        "title": "机票预定",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/reserve/params": {
+        "url": "/flight/international/buyer/white/order/reserve/params",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/机票预定下单所需数据.json",
+        "title": "机票预定下单所需数据",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/invalid": {
+        "url": "/flight/international/buyer/white/order/invalid",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/申请作废.json",
+        "title": "申请作废",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/change": {
+        "url": "/flight/international/buyer/white/order/change",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/申请改签.json",
+        "title": "申请改签",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/refund": {
+        "url": "/flight/international/buyer/white/order/refund",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/申请退票.json",
+        "title": "申请退票",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/pay": {
+        "url": "/flight/international/buyer/white/order/pay",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/订单支付.json",
+        "title": "订单支付",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/check": {
+        "url": "/flight/international/buyer/white/order/check",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/订单支付前验价.json",
+        "title": "订单支付前验价",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/refundConfirm": {
+        "url": "/flight/international/buyer/white/order/refundConfirm",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/退票确认.json",
+        "title": "退票确认",
+        "method": "POST"
+    },
+    "/flight/international/buyer/white/order/checkPrice": {
+        "url": "/flight/international/buyer/white/order/checkPrice",
+        "path": "D:\\yinzlMock\\mock/flight/international-buyer-white-order-controller/预订前检验价格.json",
+        "title": "预订前检验价格",
+        "method": "POST"
+    },
+    "/payment/callback": {
+        "url": "/payment/callback",
+        "path": "D:\\yinzlMock\\mock/flight/payment-callback-controller/支付回调.json",
+        "title": "支付回调",
+        "method": "POST"
+    },
+    "/payment/params": {
+        "url": "/payment/params",
+        "path": "D:\\yinzlMock\\mock/flight/payment-controller/获取支付参数.json",
+        "title": "获取支付参数",
+        "method": "POST"
+    },
+    "/payment/result": {
+        "url": "/payment/result",
+        "path": "D:\\yinzlMock\\mock/flight/payment-controller/获取支付结果.json",
+        "title": "获取支付结果",
+        "method": "POST"
+    },
+    "/plat/dom/manage/supplierPay": {
+        "url": "/plat/dom/manage/supplierPay",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/供应商重新发起扣款.json",
+        "title": "供应商重新发起扣款",
+        "method": "POST"
+    },
+    "/plat/dom/manage/childRefundOperation": {
+        "url": "/plat/dom/manage/childRefundOperation",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/儿童手工退票操作.json",
+        "title": "儿童手工退票操作",
+        "method": "POST"
+    },
+    "/plat/dom/manage/rerationOrder": {
+        "url": "/plat/dom/manage/rerationOrder",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/关联新订单.json",
+        "title": "关联新订单",
+        "method": "POST"
+    },
+    "/plat/dom/manage/childTicketOperation": {
+        "url": "/plat/dom/manage/childTicketOperation",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/出票操作-儿童.json",
+        "title": "出票操作-儿童",
+        "method": "POST"
+    },
+    "/plat/dom/manage/ticketOperation": {
+        "url": "/plat/dom/manage/ticketOperation",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/出票操作-往返.json",
+        "title": "出票操作-往返",
+        "method": "POST"
+    },
+    "/plat/dom/manage/child/order/change/operation": {
+        "url": "/plat/dom/manage/child/order/change/operation",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台-儿童改签操作.json",
+        "title": "平台-儿童改签操作",
+        "method": "POST"
+    },
+    "/plat/dom/manage/order/change/oneWay": {
+        "url": "/plat/dom/manage/order/change/oneWay",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台-单程改签操作(成人 + 儿童).json",
+        "title": "平台-单程改签操作(成人 + 儿童)",
+        "method": "POST"
+    },
+    "/plat/dom/manage/order/change/roundTrip": {
+        "url": "/plat/dom/manage/order/change/roundTrip",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台-往返改签操作(成人 + 儿童).json",
+        "title": "平台-往返改签操作(成人 + 儿童)",
+        "method": "POST"
+    },
+    "/plat/dom/manage/ticket": {
+        "url": "/plat/dom/manage/ticket",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台出票操作查询.json",
+        "title": "平台出票操作查询",
+        "method": "POST"
+    },
+    "/plat/dom/manage/change": {
+        "url": "/plat/dom/manage/change",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台改签操作查询.json",
+        "title": "平台改签操作查询",
+        "method": "POST"
+    },
+    "/plat/dom/manage/creatAirChange": {
+        "url": "/plat/dom/manage/creatAirChange",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台新增航变信息.json",
+        "title": "平台新增航变信息",
+        "method": "POST"
+    },
+    "/plat/dom/manage/AirChangeList": {
+        "url": "/plat/dom/manage/AirChangeList",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/平台航变信息列表.json",
+        "title": "平台航变信息列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/changeList": {
+        "url": "/plat/dom/manage/changeList",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/改签列表.json",
+        "title": "改签列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/order/change/log/list": {
+        "url": "/plat/dom/manage/order/change/log/list",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/改签订单操作日志.json",
+        "title": "改签订单操作日志",
+        "method": "POST"
+    },
+    "/plat/dom/manage/changeCount": {
+        "url": "/plat/dom/manage/changeCount",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/改签订单记录数.json",
+        "title": "改签订单记录数",
+        "method": "POST"
+    },
+    "/plat/dom/manage/changeDetail": {
+        "url": "/plat/dom/manage/changeDetail",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/改签订单详情.json",
+        "title": "改签订单详情",
+        "method": "POST"
+    },
+    "/plat/dom/manage/itinerary/list": {
+        "url": "/plat/dom/manage/itinerary/list",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/行程单列表.json",
+        "title": "行程单列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/itinerary/logisticsNum": {
+        "url": "/plat/dom/manage/itinerary/logisticsNum",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/行程单增加物流号.json",
+        "title": "行程单增加物流号",
+        "method": "POST"
+    },
+    "/plat/dom/manage/itinerary/detail": {
+        "url": "/plat/dom/manage/itinerary/detail",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/行程单详情.json",
+        "title": "行程单详情",
+        "method": "POST"
+    },
+    "/plat/dom/manage/orderList": {
+        "url": "/plat/dom/manage/orderList",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/订单列表.json",
+        "title": "订单列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/order/log/list": {
+        "url": "/plat/dom/manage/order/log/list",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/订单操作日志.json",
+        "title": "订单操作日志",
+        "method": "POST"
+    },
+    "/plat/dom/manage/orderLog": {
+        "url": "/plat/dom/manage/orderLog",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/订单日志查询.json",
+        "title": "订单日志查询",
+        "method": "POST"
+    },
+    "/plat/dom/manage/count": {
+        "url": "/plat/dom/manage/count",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/订单记录数.json",
+        "title": "订单记录数",
+        "method": "POST"
+    },
+    "/plat/dom/manage/orderDetail": {
+        "url": "/plat/dom/manage/orderDetail",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/订单详情(成人 + 儿童).json",
+        "title": "订单详情(成人 + 儿童)",
+        "method": "POST"
+    },
+    "/plat/dom/manage/reimburseList": {
+        "url": "/plat/dom/manage/reimburseList",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退款单列表.json",
+        "title": "退款单列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/reimburseCount": {
+        "url": "/plat/dom/manage/reimburseCount",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退款单记录数.json",
+        "title": "退款单记录数",
+        "method": "POST"
+    },
+    "/plat/dom/manage/reimburseAffirm": {
+        "url": "/plat/dom/manage/reimburseAffirm",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退款确认.json",
+        "title": "退款确认",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundList": {
+        "url": "/plat/dom/manage/refundList",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票列表.json",
+        "title": "退票列表",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundCount": {
+        "url": "/plat/dom/manage/refundCount",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票列表记录数.json",
+        "title": "退票列表记录数",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundLog": {
+        "url": "/plat/dom/manage/refundLog",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票单日志查询.json",
+        "title": "退票单日志查询",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundOperation": {
+        "url": "/plat/dom/manage/refundOperation",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票操作(成人 + 儿童).json",
+        "title": "退票操作(成人 + 儿童)",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundAffirm": {
+        "url": "/plat/dom/manage/refundAffirm",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票确认.json",
+        "title": "退票确认",
+        "method": "POST"
+    },
+    "/plat/dom/manage/refundDetail": {
+        "url": "/plat/dom/manage/refundDetail",
+        "path": "D:\\yinzlMock\\mock/flight/platform-controller/退票订单详情.json",
+        "title": "退票订单详情",
+        "method": "POST"
+    },
+    "/simulate/ticket": {
+        "url": "/simulate/ticket",
+        "path": "D:\\yinzlMock\\mock/flight/simulate-controller/出票.json",
+        "title": "出票",
+        "method": "POST"
+    },
+    "/simulate/change": {
+        "url": "/simulate/change",
+        "path": "D:\\yinzlMock\\mock/flight/simulate-controller/改签.json",
+        "title": "改签",
+        "method": "POST"
+    },
+    "/simulate/refund": {
+        "url": "/simulate/refund",
+        "path": "D:\\yinzlMock\\mock/flight/simulate-controller/退票.json",
+        "title": "退票",
+        "method": "POST"
     }
 }

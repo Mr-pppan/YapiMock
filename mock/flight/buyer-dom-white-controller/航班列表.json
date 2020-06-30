@@ -1,0 +1,250 @@
+{
+  "type": "object",
+  "properties": {
+    "code": {
+      "type": "string",
+      "description": "返回编码"
+    },
+    "flights": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "airCompanyCode": {
+            "type": "string",
+            "description": "航司二字码"
+          },
+          "airCompanyLogoImg": {
+            "type": "string",
+            "description": "航司LOGO图片地址"
+          },
+          "airCompanyName": {
+            "type": "string",
+            "description": "航司名称"
+          },
+          "arrAirportCode": {
+            "type": "string",
+            "description": "到达机场三字码"
+          },
+          "arrAirportName": {
+            "type": "string",
+            "description": "到达机场名称"
+          },
+          "arrCityCode": {
+            "type": "string",
+            "description": "到达城市三字码"
+          },
+          "arrCityName": {
+            "type": "string",
+            "description": "到达城市名称"
+          },
+          "arrDate": {
+            "type": "string",
+            "description": "到达日期，格式yyyy-MM-dd，如：2017/10/01"
+          },
+          "arrTerminal": {
+            "type": "string",
+            "description": "到达航站楼"
+          },
+          "arrTime": {
+            "type": "string",
+            "description": "到达时间，格式HH:mm，如：07:35"
+          },
+          "basePrics": {
+            "type": "number",
+            "description": "基础价格"
+          },
+          "depAirportCode": {
+            "type": "string",
+            "description": "出发机场三字码"
+          },
+          "depAirportName": {
+            "type": "string",
+            "description": "出发机场名称"
+          },
+          "depCityCode": {
+            "type": "string",
+            "description": "出发城市三字码"
+          },
+          "depCityName": {
+            "type": "string",
+            "description": "出发城市名称"
+          },
+          "depDate": {
+            "type": "string",
+            "description": "出发日期，格式yyyy-MM-dd，如：2017/10/01"
+          },
+          "depTerminal": {
+            "type": "string",
+            "description": "出发航站楼"
+          },
+          "depTime": {
+            "type": "string",
+            "description": "出发时间，格式HH:mm，如：07:35"
+          },
+          "distance": {
+            "type": "string",
+            "description": "飞行里程"
+          },
+          "duration": {
+            "type": "string",
+            "description": "飞行时长，格式HH:mm，如：3:05，表示飞行3小时5分钟"
+          },
+          "flightNo": {
+            "type": "string",
+            "description": "航班号"
+          },
+          "isHasMeal": {
+            "type": "integer",
+            "format": "int32",
+            "description": "是否提供餐食 1-有，0-没有"
+          },
+          "planeType": {
+            "type": "string",
+            "description": "机型"
+          },
+          "policys": {
+            "type": "array",
+            "description": "政策列表",
+            "items": {
+              "type": "object",
+              "properties": {
+                "cabin": {
+                  "type": "object",
+                  "properties": {
+                    "cabinCode": {
+                      "type": "string",
+                      "description": "舱位代码"
+                    },
+                    "cabinName": {
+                      "type": "string",
+                      "description": "舱位名称"
+                    },
+                    "cabinRank": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "舱位等级 1. 头等舱 2. 商务舱 3. 经济舱"
+                    },
+                    "cabinType": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "是否特价舱位 1.普通 2.特价"
+                    },
+                    "chdCabinCode": {
+                      "type": "string",
+                      "description": "儿童舱位代码"
+                    },
+                    "discount": {
+                      "type": "number",
+                      "format": "double",
+                      "description": "折扣，如：0.68"
+                    },
+                    "ticketCount": {
+                      "type": "integer",
+                      "format": "int32",
+                      "description": "剩余座位数( <9 表示实际剩余票量 ； ≥9 表示票量充足 是虚数 )"
+                    }
+                  },
+                  "title": "DomFlightPolicyCabin",
+                  "$$ref": "#/definitions/DomFlightPolicyCabin"
+                },
+                "comment": {
+                  "type": "string",
+                  "description": "产品备注"
+                },
+                "policyId": {
+                  "type": "string",
+                  "description": "政策ID"
+                },
+                "priceData": {
+                  "type": "array",
+                  "description": "价格数据",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "airportTax": {
+                        "type": "number",
+                        "description": "机建"
+                      },
+                      "commisionMoney": {
+                        "type": "number",
+                        "description": "定额"
+                      },
+                      "commisionPoint": {
+                        "type": "number",
+                        "format": "double",
+                        "description": "返点"
+                      },
+                      "crewType": {
+                        "type": "string",
+                        "description": "乘机人类型 1 成人 2 儿童"
+                      },
+                      "fuelTax": {
+                        "type": "number",
+                        "description": "燃油费"
+                      },
+                      "price": {
+                        "type": "number",
+                        "description": "票面价"
+                      },
+                      "rebate": {
+                        "type": "number",
+                        "description": "返佣金额"
+                      },
+                      "rebatePrice": {
+                        "type": "number",
+                        "description": "返佣票价"
+                      }
+                    },
+                    "title": "DomFlightPolicyPriceData",
+                    "$$ref": "#/definitions/DomFlightPolicyPriceData"
+                  }
+                },
+                "productType": {
+                  "type": "string",
+                  "description": "产品类型 商旅优选：1、2、3、4、12、13 低价推荐：41、42、43、44、45、 官网：21、22、23、24、25"
+                },
+                "productTypeTxt": {
+                  "type": "string",
+                  "description": "产品类型名称"
+                },
+                "providerWorkTime": {
+                  "type": "string",
+                  "description": "供应商工作时间，如：7:00-24:00"
+                },
+                "refundTime": {
+                  "type": "string",
+                  "description": "废票时间，如：8:00-8:30"
+                },
+                "supplierId": {
+                  "type": "string",
+                  "description": "供应商ID"
+                }
+              },
+              "title": "DomFlightPolicy",
+              "$$ref": "#/definitions/DomFlightPolicy"
+            }
+          },
+          "stopNum": {
+            "type": "integer",
+            "format": "int32",
+            "description": "经停次数"
+          },
+          "supplierType": {
+            "type": "integer",
+            "format": "int32",
+            "description": "供应商类型 1-51book 2-美亚"
+          }
+        },
+        "title": "DomFlight",
+        "$$ref": "#/definitions/DomFlight"
+      }
+    },
+    "msg": {
+      "type": "string",
+      "description": "返回信息"
+    }
+  },
+  "title": "BuyerDomWhiteFlightListResponse",
+  "$$ref": "#/definitions/BuyerDomWhiteFlightListResponse"
+}
